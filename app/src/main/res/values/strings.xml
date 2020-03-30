@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="upload">Upload</string>
+    <string name="content_goes_here">Content Goes Here</string>
+    <string name="topic_here">Topic here</string>
+    <string name="cool">Cool</string>
+    <string name="not_cool">Not Cool</string>
+    <string name="comments">Comments</string>
+    <string name="email_will_come_here">Email will come here</string>
+    <string name="topic_name_will_come_here">Topic name will come here</string>
+</resources>

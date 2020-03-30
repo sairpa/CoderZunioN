@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ajax001"
+    tools:context=".TopicsActivty">
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="314dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Web Exploitation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView8"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView8"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="4dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="C++"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Cryptography"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView9"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView6"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView6" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="314dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Web Exploitation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView8"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView8" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="4dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Binary Exploitation"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="32dp"
+        android:text="Capture The Flag"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView3" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Python"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView5"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView5" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Java"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView4"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView7"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView7" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="42dp"
+        android:background="#4CAF50"
+        android:text="Topics of Interest"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="20dp"
+        android:text="Competitve Coding"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView7"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Kotlin"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView2"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView4"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView4" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="Swift"
+        app:layout_constraintBottom_toTopOf="@+id/checkedTextView3"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:checkMark="@android:drawable/checkbox_off_background"
+        android:checkMarkTint="#EF1111"
+        android:checked="false"
+        android:text="PHP"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/checkedTextView2"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

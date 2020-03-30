@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:foregroundGravity="center"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tvcnt"
+        android:layout_width="387dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="212dp"
+        android:autoText="true"
+        android:hint="@string/content_goes_here"
+        android:inputType="textLongMessage"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F3F3"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtp" />
+
+    <TextView
+        android:id="@+id/tvem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/email_will_come_here"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F3F3"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/topic_name_will_come_here"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F3F3"
+        android:textSize="30sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvem" />
+
+    <ImageView
+        android:id="@+id/ivimg"
+        android:layout_width="209dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvcnt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="111dp"
+        android:layout_height="43dp"
+        android:background="#03A9F4"
+        android:text="@string/comments"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="118dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="28dp"
+        android:background="#8BC34A"
+        android:text="@string/cool"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:background="#F44336"
+        android:text="@string/not_cool"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

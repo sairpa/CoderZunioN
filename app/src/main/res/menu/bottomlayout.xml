@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Feed"
+        android:icon="@drawable/feed"
+
+        android:id="@+id/feed"
+        />
+    <item
+        android:title="Discover"
+        android:icon="@drawable/search"
+
+        android:id="@+id/discover"
+        />
+    <item
+        android:title="Explore"
+        android:icon="@drawable/explore"
+
+        android:id="@+id/explore"
+        />
+    <item
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"
+        />
+
+
+
+</menu>
